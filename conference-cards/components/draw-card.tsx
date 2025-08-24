@@ -230,7 +230,7 @@ export default function DrawCard({ cards, isOpen, onClose }: DrawCardProps) {
                     <Sparkles className="w-5 h-5" />
                   </div>
                 </CardContent>
-              </UICard>
+              </Card>
             </motion.div>
           )}
         </AnimatePresence>
@@ -269,7 +269,7 @@ export default function DrawCard({ cards, isOpen, onClose }: DrawCardProps) {
                         {card.position}
                       </p>
                     </CardContent>
-                  </UICard>
+                  </Card>
                 </motion.div>
               ))}
             </div>
